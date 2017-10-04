@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>Esfa.Das.Ofsted.Inspection.Types</id>
+    <id>Esfa.Ofsted.Inspection.Types</id>
     <version>$version$</version>
     <title>Ofsted Inspection Types</title>
     <authors>scottcowan markfcain</authors>
@@ -9,7 +9,7 @@
     <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</licenseUrl>
     <projectUrl>https://github.com/SkillsFundingAgency/das-ofsted-inspection-client</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Returns Ofsted inspection information</description>
+    <description>Returns Ofsted inspection Types</description>
     <summary>Ofsted Inspection Types</summary>
     <tags>Ofsted Inspection</tags>
     <language>en-GB</language>
