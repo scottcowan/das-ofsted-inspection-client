@@ -7,8 +7,8 @@
     <ProjectGuid>{47EA7826-6921-4BE1-AD0A-33B3A703B70D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sfa.Das.Ofsted.Inspection.Client</RootNamespace>
-    <AssemblyName>Sfa.Das.Ofsted.Inspection.Client</AssemblyName>
+    <RootNamespace>Esfa.Ofsted.Inspection.Client</RootNamespace>
+    <AssemblyName>Esfa..Ofsted.Inspection.Client</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

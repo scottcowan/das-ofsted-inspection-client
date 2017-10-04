@@ -3,7 +3,7 @@
 #---------------------------------#
 
 # version format
-version: 1.0.{build}
+version: 0.0.{build}
 
 # branches to build
 branches:
@@ -50,7 +50,7 @@ platform: Any CPU
 configuration: Release
 
 build:
-  project: src\Sfa.Das.Ofsted.Inspection       # path to Visual Studio solution or project
+  project: src\Esfa.Ofsted.Inspection       # path to Visual Studio solution or project
   publish_wap: false              # package Web Application Projects (WAP) for Web Deploy
   publish_wap_xcopy: false        # package Web Application Projects (WAP) for XCopy deployment
   publish_azure: false            # package Azure Cloud Service projects and push to artifacts
@@ -63,13 +63,13 @@ build:
 # scripts to run before build
 before_build:
   - ps: If (Test-Path "$env:package_dir") { Remove-Item "$env:package_dir" -Recurse -Force -ErrorAction SilentlyContinue }
-  - nuget restore src\Sfa.Das.Ofsted.Inspection.sln
+  - nuget restore src\Esfa.Ofsted.Inspection.sln
 
 # scripts to run after build
 after_build:
   - mkdir %PACKAGE_DIR%
-  - nuget pack src\Sfa.Das.Ofsted.Inspection.Types\Sfa.Das.Ofsted.Inspection.Types.nuspec -OutputDirectory %PACKAGE_DIR% -BasePath src\Sfa.Das.Ofsted.Inspection.Types -Verbosity Detailed -Version %APPVEYOR_BUILD_VERSION% -Symbols -Properties Configuration=Release
-  - nuget pack src\Sfa.Das.Ofsted.Inspection.Client\Sfa.Das.Ofsted.Inspection.Client.nuspec -OutputDirectory %PACKAGE_DIR% -BasePath src\Sfa.Das.Ofsted.Inspection.Client -Verbosity Detailed -Version %APPVEYOR_BUILD_VERSION% -Symbols -Properties Configuration=Release
+  - nuget pack src\Esfa.Ofsted.Inspection.Types\Esfa.Ofsted.Inspection.Types.nuspec -OutputDirectory %PACKAGE_DIR% -BasePath src\Esfa.Ofsted.Inspection.Types -Verbosity Detailed -Version %APPVEYOR_BUILD_VERSION% -Symbols -Properties Configuration=Release
+  - nuget pack src\Esfa.Ofsted.Inspection.Client\Esfa.Ofsted.Inspection.Client.nuspec -OutputDirectory %PACKAGE_DIR% -BasePath src\Esfa.Ofsted.Inspection.Client -Verbosity Detailed -Version %APPVEYOR_BUILD_VERSION% -Symbols -Properties Configuration=Release
 
 artifacts:
   # pushing all *.nupkg files in directory
