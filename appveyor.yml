@@ -50,7 +50,7 @@ platform: Any CPU
 configuration: Release
 
 build:
-  project: src\Esfa.Ofsted.Inspection       # path to Visual Studio solution or project
+  project: src\Esfa.Ofsted.Inspection.sln       # path to Visual Studio solution or project
   publish_wap: false              # package Web Application Projects (WAP) for Web Deploy
   publish_wap_xcopy: false        # package Web Application Projects (WAP) for XCopy deployment
   publish_azure: false            # package Azure Cloud Service projects and push to artifacts

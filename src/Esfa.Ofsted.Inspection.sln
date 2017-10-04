@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esfa.Ofsted.Inspection.Client", "Esfa.Ofsted.Inspection.Client\Esfa.Ofsted.Inspection.Client.csproj", "{47EA7826-6921-4BE1-AD0A-33B3A703B70D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esfa.Ofsted.Inspection.Types", "Esfa.Ofsted.Inspection.Types\Esfa.Ofsted.Inspection.Types.csproj", "{348A981E-96A1-460B-9A8C-B4A86279CDED}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esfa.Ofsted.Inspection.UnitTests", "Esfa.Ofsted.Inspection.UnitTests\Esfa.Ofsted.Inspection.UnitTests.csproj", "{F292E632-C8BC-43A9-B5F9-80D803D4ADC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esfa.Ofsted.Inspection.Client", "Esfa.Ofsted.Inspection.Client\Esfa.Ofsted.Inspection.Client.csproj", "{47EA7826-6921-4BE1-AD0A-33B3A703B70D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{47EA7826-6921-4BE1-AD0A-33B3A703B70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{47EA7826-6921-4BE1-AD0A-33B3A703B70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{47EA7826-6921-4BE1-AD0A-33B3A703B70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{47EA7826-6921-4BE1-AD0A-33B3A703B70D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{348A981E-96A1-460B-9A8C-B4A86279CDED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{348A981E-96A1-460B-9A8C-B4A86279CDED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{348A981E-96A1-460B-9A8C-B4A86279CDED}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{F292E632-C8BC-43A9-B5F9-80D803D4ADC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F292E632-C8BC-43A9-B5F9-80D803D4ADC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F292E632-C8BC-43A9-B5F9-80D803D4ADC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47EA7826-6921-4BE1-AD0A-33B3A703B70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47EA7826-6921-4BE1-AD0A-33B3A703B70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47EA7826-6921-4BE1-AD0A-33B3A703B70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47EA7826-6921-4BE1-AD0A-33B3A703B70D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
